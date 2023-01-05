@@ -1,0 +1,14 @@
+name: creevek_flutter_sandbox_feature
+description: New feature for creevek sandbox
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.40 <0.1.0"
+
+vars:
+  featureName:
+    type: string
+    description: Name of the feature folder
+    default: new_feature
+    prompt: Name of the new feature folder?
